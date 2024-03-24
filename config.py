@@ -14,9 +14,9 @@ API_HASH = getenv("API_HASH")
 BOT_TOKEN = getenv("BOT_TOKEN")
 
 # Get your mongo url from cloud.mongodb.com
-MONGO_DB_URI = getenv("MONGO_DB_URI", mongodb+srv://BrandedSupportGroup:BRANDED_WORLD@cluster0.v4odcq9.mongodb.net/?retryWrites=true&w=majority)
-MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", @Kanha_music_bot)
-PRIVATE_BOT_MODE = getenv("PRIVATE_BOT_MODE", @Kings_Queen_BBy)
+MONGO_DB_URI = getenv("MONGO_DB_URI", mongodb+srv://BrandedSupportGroup:BRANDED_WORLD@cluster0.v4odcq9.mongodb.net/?retryWrites=true&w=majority))
+MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", @Kanha_music_bot))
+PRIVATE_BOT_MODE = getenv("PRIVATE_BOT_MODE", @Kings_Queen_BBy))
 
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 900))
 
