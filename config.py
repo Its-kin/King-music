@@ -14,14 +14,14 @@ API_HASH = getenv("API_HASH")
 BOT_TOKEN = getenv("BOT_TOKEN")
 
 # Get your mongo url from cloud.mongodb.com
-MONGO_DB_URI = getenv("MONGO_DB_URI", mongodb+srv://BrandedSupportGroup:BRANDED_WORLD@cluster0.v4odcq9.mongodb.net/?retryWrites=true&w=majority))
-MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", @Kanha_music_bot))
-PRIVATE_BOT_MODE = getenv("PRIVATE_BOT_MODE", @Kings_Queen_BBy))
+MONGO_DB_URI = getenv("MONGO_DB_URI", None)
+MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", None)
+PRIVATE_BOT_MODE = getenv("PRIVATE_BOT_MODE", None)
 
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 900))
 
 # Chat id of a group for logging bot's activities
-LOGGER_ID = int(getenv("LOGGER_ID", 1002103055036))
+LOGGER_ID = int(getenv("LOGGER_ID", None))
 
 # Get this value from @BRANDRD_ROBOT on Telegram by /id
 OWNER_ID = int(getenv("OWNER_ID", 6537860895))
@@ -68,7 +68,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", 1073741824))
 
 # Get your pyrogram v2 session from @BRANDEDSTRINGSESSION_BOT on Telegram
 STRING1 = getenv("STRING_SESSION", None)
-STRING2 = getenv("STRING_SESSION2", BQDKh88AvJM_Apy9AmwpW7Yt-vWgqJqCN712xW5Yt-fTLe9TOJ5uxko7Z-O6z9_g4W1c_GWpMp6mV2Lw8JM7cZzEbeOSmRc7QkpcsChXKs2R6WHgkOjZqfaskzBqM5Mlyzte0mZM_MQD5CKNL6k5-y_9RwWZLZjKnGQDNOrbf1QpPUs52eQIAIO2DMWSu1oegyS_nD0hud8ZDq2RqB8hxtMCchUH-_3OqqRHitwsHz2HIrX0lFbJn59D37r8eGAU3F_JXSBy5cjf-1XtgoglNZR3GTeqaNMtNR7KzmOVQ9vht7hq0KjImSQTytPX9j9lob9mjMSAfrmKM2LAFuuID33XS54G1AAAAAGFr9cfAA)
+STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
 STRING5 = getenv("STRING_SESSION5", None)
